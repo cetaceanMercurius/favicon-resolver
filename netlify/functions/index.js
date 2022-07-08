@@ -2,7 +2,7 @@
 
 exports.handler = async function handleRequest(request) {
 
-  let cache = caches.default
+  // let cache = caches.default
 
   const svgFavicon = 'data:image/svg+xml,'
   
