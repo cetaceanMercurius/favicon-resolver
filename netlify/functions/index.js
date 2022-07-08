@@ -1,4 +1,5 @@
-exports.handler = async function (request) {
+exports.handler = async function (event, context) {
+  const request = event.request
   const svgFavicon = 'data:image/svg+xml,'
 
   const defaultIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#4a5568">
